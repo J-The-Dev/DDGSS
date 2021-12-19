@@ -13,5 +13,8 @@
             "js": ["DDGSS.js"],
             "run_at": "document_start"
         }
-    ]
+    ],
+    "icons": {  "16": "assets/icons/DDGSS-16.png",
+                "48": "assets/icons/DDGSS-48.png",
+                "128": "assets/icons/DDGSS-128.png" }
 }
