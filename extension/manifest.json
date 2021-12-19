@@ -1,0 +1,17 @@
+{
+	"name": "DDGSS",
+	"version": "1.0",
+	"manifest_version": 2,
+	"description": "A small extension that stores your Duck Duck Go settings in private browsing mode.",
+	"homepage_url": "https://github.com/J-The-Dev/DDGSS",
+	"permissions": [
+        "storage"
+    ],
+    "content_scripts": [
+        {
+            "matches": [ "*://duckduckgo.com/*" ],
+            "js": ["DDGSS.js"],
+            "run_at": "document_start"
+        }
+    ]
+}
